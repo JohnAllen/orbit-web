@@ -14,11 +14,13 @@
     "fs-pull-blob-store": "idb-pull-blob-store"
   },
   "dependencies": {
+    "bignumber.js": "^4.0.2",
     "clipboard": "^1.5.16",
     "domkit": "0.0.1",
     "emoji-annotation-to-unicode": "^0.2.4",
     "highlight.js": "^9.9.0",
-    "ipfs-daemon": "^0.3.0-beta.19",
+    "ipfs": "^0.25.2",
+    "js-ipfs": "^0.0.301",
     "libp2p-floodsub": "github:libp2p/js-libp2p-floodsub#orbit-floodsub",
     "lodash.differencewith": "^4.5.0",
     "lodash.flatten": "^4.4.0",
@@ -69,9 +71,9 @@
     "sass-loader": "^6.0.3",
     "style-loader": "~0.15.0",
     "transform-loader": "^0.2.3",
-    "uglify-js": "github:mishoo/UglifyJS2#harmony",
+    "uglify-js": "^3.0.28",
     "url-loader": "~0.5.7",
-    "webpack": "^2.3.0",
+    "webpack": "^2.7.0",
     "webpack-dev-server": "^2.2.1"
   },
   "scripts": {
